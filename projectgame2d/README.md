@@ -1,4 +1,10 @@
-# PLATFORMER 2D STARTER BY GAMES2PLAY STUDIOS
+# โครงงานเกมPLATFORMER 2D 
+วิชา Computer Game Development ปี 2025
+
+**สมาชิกในกลุ่ม**
+1.นาย ภูธเนศ รวมธรรม รหัส 663380530-4
+2.
+
 
 This starter kit includes all the essential mechanics for your 2d platformer game. Using this kit,
 you will be able to make your own 2d platformer in no time.
