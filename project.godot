@@ -21,8 +21,8 @@ config/icon="res://Icon.png"
 [autoload]
 
 GameManager="*res://Scripts/GameManager.gd"
-SceneTransition="*res://Scenes/Managers/SceneTransition.tscn"
 AudioManager="*res://Scenes/Managers/AudioManager.tscn"
+SceneTransition="*res://Scenes/Prefabs/SceneTransition.gd"
 
 [display]
 
@@ -63,4 +63,4 @@ Down={
 
 [rendering]
 
-environment/defaults/default_clear_color=Color(0.105469, 0.457031, 0.730469, 1)
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
