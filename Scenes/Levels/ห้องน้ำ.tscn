@@ -53,5 +53,4 @@ target_door = "door_b"
 door_id = "door_b"
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-visible = false
 color = Color(0.197937, 0.197937, 0.197937, 1)
