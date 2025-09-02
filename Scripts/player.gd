@@ -7,6 +7,7 @@ extends CharacterBody2D
 @onready var spawn_point = %SpawnPoint
 @onready var death_particles = $DeathParticles
 
+
 func _process(_delta):
 	movement()
 	player_animations()
@@ -53,3 +54,10 @@ func _on_collision_body_entered(_body):
 		AudioManager.death_sfx.play()
 		death_particles.emitting = true
 		death_tween()
+		
+func _ready():
+	var scene_name = get_tree().current_scene.name
+	if GameManager.spawn_door != "" and GameManager.door_positions.has(scene_name):
+		if GameManager.door_positions[scene_name].has(GameManager.spawn_door):
+			global_position = GameManager.door_positions[scene_name][GameManager.spawn_door]
+	GameManager.spawn_door = ""

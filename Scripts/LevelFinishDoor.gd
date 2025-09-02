@@ -1,10 +1,8 @@
 extends Area2D
 
-# Define the next scene to load in the inspector
 @export var next_scene : PackedScene
+@export var target_spawn : String   # ชื่อ spawn point ใน scene ถัดไป
 
-# Load next level scene when player collide with level finish door.
-func _on_body_entered(body):
+func _on_body_entered(body: Node):
 	if body.is_in_group("Player"):
-		get_tree().call_group("Player", "death_tween") # death_tween is called here just to give the feeling of player entering the door.
-		SceneTransition.load_scene(next_scene)
+		SceneTransition.change_scene(next_scene, target_spawn)

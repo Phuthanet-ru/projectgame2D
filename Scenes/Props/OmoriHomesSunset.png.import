@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hbegl1uga0mh"
-path="res://.godot/imported/Carpet .png-c09a5a5777b89bfacf5cee34e2f20015.ctex"
+uid="uid://dcuh41alrksvu"
+path="res://.godot/imported/OmoriHomesSunset.png-101fb7c8f3958c2c5633931098d53572.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Props/Carpet .png"
-dest_files=["res://.godot/imported/Carpet .png-c09a5a5777b89bfacf5cee34e2f20015.ctex"]
+source_file="res://Scenes/Props/OmoriHomesSunset.png"
+dest_files=["res://.godot/imported/OmoriHomesSunset.png-101fb7c8f3958c2c5633931098d53572.ctex"]
 
 [params]
 
