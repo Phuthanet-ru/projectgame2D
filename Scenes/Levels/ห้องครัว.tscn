@@ -1,12 +1,10 @@
-[gd_scene load_steps=9 format=4 uid="uid://l0a3d8fh2l2i"]
+[gd_scene load_steps=7 format=4 uid="uid://l0a3d8fh2l2i"]
 
 [ext_resource type="TileSet" uid="uid://cvuradly8ktbj" path="res://Scenes/Props/Tileset.tres" id="1_nc76c"]
 [ext_resource type="PackedScene" uid="uid://w7m6tehvvy3g" path="res://Scenes/Prefabs/player.tscn" id="2_e18hr"]
 [ext_resource type="Texture2D" uid="uid://cqkkf7irnsu54" path="res://Scenes/Props/light.png" id="3_ey2ef"]
 [ext_resource type="Script" uid="uid://dvcfaevwadi4h" path="res://Scenes/Levels/pan_area.gd" id="4_ey2ef"]
 [ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorลง.tscn" id="4_m3c88"]
-[ext_resource type="AudioStream" uid="uid://dw664g1d3qxae" path="res://เพลง/Food Sizzling Sound Effect.mp3" id="5_m3c88"]
-[ext_resource type="AudioStream" uid="uid://dbnjrfgadys6g" path="res://เพลง/Sound Effects - Footsteps.mp3" id="6_m3c88"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xwycb"]
 size = Vector2(30.5, 35)
@@ -66,7 +64,6 @@ position = Vector2(111, 286)
 shape = SubResource("RectangleShape2D_xwycb")
 
 [node name="PanSizzle" type="AudioStreamPlayer2D" parent="Level/TileMapLayer3/PanArea"]
-stream = ExtResource("5_m3c88")
 
 [node name="CloseSfx" type="AudioStreamPlayer2D" parent="Level/TileMapLayer3/PanArea"]
 
@@ -75,7 +72,6 @@ offset_right = 40.0
 offset_bottom = 23.0
 
 [node name="AmbienceFootsteps" type="AudioStreamPlayer2D" parent="Level/TileMapLayer3/PanArea"]
-stream = ExtResource("6_m3c88")
 
 [node name="TileMapLayer4" type="TileMapLayer" parent="Level"]
 tile_map_data = PackedByteArray("AAALABgAAgAUAFgAAAAMABgAAgAVAFgAAAAMABkAAgAVAFkAAAAJABgAAgAaAF8AAAAJABkAAgAaAGAAAAAKABgAAgAbAF8AAAAKABkAAgAbAGAAAAA=")
