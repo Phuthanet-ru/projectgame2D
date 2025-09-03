@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b134jy6pv8x6q"
+path="res://.godot/imported/Dark Piano - Sociopath [VagES3pxttQ].mp3-9bb0bceeed5eb986e292465928e9595f.mp3str"
+
+[deps]
+
+source_file="res://เพลง/Dark Piano - Sociopath [VagES3pxttQ].mp3"
+dest_files=["res://.godot/imported/Dark Piano - Sociopath [VagES3pxttQ].mp3-9bb0bceeed5eb986e292465928e9595f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
