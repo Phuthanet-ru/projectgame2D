@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1cpdjsdlpyux"]
+
+[ext_resource type="Script" uid="uid://cf32cqwon1fwd" path="res://Scenes/Prefabs/game_over.gd" id="1_ferdd"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_egfxn"]
+font_size = 50
+font_color = Color(1, 0, 0, 1)
+
+[node name="GameOver" type="CanvasLayer"]
+script = ExtResource("1_ferdd")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer"]
+layout_mode = 2
+color = Color(0.144063, 0.144063, 0.144063, 1)
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "GAME OVER"
+label_settings = SubResource("LabelSettings_egfxn")
+
+[node name="Retry" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Retry"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Quit"
+
+[connection signal="pressed" from="VBoxContainer/Retry" to="." method="_on_retry_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
