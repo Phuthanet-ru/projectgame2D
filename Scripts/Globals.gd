@@ -8,6 +8,7 @@ var door_positions: Dictionary = {
 	"ทางเดิน": {
 		"door_A": Vector2(944, 108),
 		"door_b": Vector2(720, 106),
+		"door_c": Vector2(848, 312),
 	}
 }
 

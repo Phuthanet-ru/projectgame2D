@@ -1,0 +1,91 @@
+[gd_scene load_steps=7 format=3 uid="uid://dl1r4mhocpdfl"]
+
+[ext_resource type="Script" uid="uid://ds6cyac8rxc08" path="res://Scenes/Prefabs/DialogueBox.gd" id="1_i2voo"]
+[ext_resource type="Texture2D" uid="uid://d4dphvl4ao3d2" path="res://Scenes/Props/Textbox.png" id="2_340bd"]
+
+[sub_resource type="Animation" id="Animation_3by7n"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_cft5x"]
+resource_name = "show"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.433333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_i2voo"]
+resource_name = "hide"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0333333, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dtax3"]
+_data = {
+&"RESET": SubResource("Animation_3by7n"),
+&"hide": SubResource("Animation_i2voo"),
+&"show": SubResource("Animation_cft5x")
+}
+
+[node name="DialogueBox" type="Control"]
+z_index = 100
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i2voo")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -19.0
+offset_top = 126.0
+offset_right = 1581.0
+offset_bottom = 1326.0
+scale = Vector2(0.718492, 0.54455)
+texture = ExtResource("2_340bd")
+
+[node name="Label" type="Label" parent="TextureRect"]
+layout_mode = 0
+offset_left = 446.769
+offset_top = 626.206
+offset_right = 486.769
+offset_bottom = 649.206
+scale = Vector2(22.8235, 7.83134)
+vertical_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_dtax3")
+}
