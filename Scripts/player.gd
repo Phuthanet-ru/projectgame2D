@@ -31,6 +31,10 @@ func movement():
 func player_animations():
 	if velocity.length() > 0:
 		player_sprite.play("Walk")
+		# 👇 เพิ่มตรงนี้
+		if velocity.x != 0:
+			player_sprite.flip_h = velocity.x < 0
+
 	else:
 		player_sprite.play("Idle")
 
