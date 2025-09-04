@@ -9,7 +9,7 @@
 [ext_resource type="AudioStream" uid="uid://dd6a1o0y8gvs7" path="res://เพลง/Hyper Realistic Knocking on Window.mp3" id="6_o6dcg"]
 [ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorลง.tscn" id="6_qtiel"]
 [ext_resource type="FontFile" uid="uid://qgc4vi5osk7v" path="res://Assets/Fonts/Star Choco.ttf" id="8_doswy"]
-[ext_resource type="AudioStream" uid="uid://dmo4euth0jqr8" path="res://เพลง/Dark Piano - Silence.mp3" id="8_i3t43"]
+[ext_resource type="AudioStream" uid="uid://de8i7qkdiqv50" path="res://เพลง/Dark Piano - Silence.mp3" id="8_i3t43"]
 [ext_resource type="Script" uid="uid://b1tr6vin60r85" path="res://Scenes/Levels/door.gd" id="9_n6rvj"]
 [ext_resource type="AudioStream" uid="uid://bno781ajui05k" path="res://เพลง/Knock knock! (sound effect).mp3" id="10_i3t43"]
 [ext_resource type="PackedScene" uid="uid://currw1kyxmsoi" path="res://Scenes/Prefabs/ghost.tscn" id="12_n6rvj"]
@@ -158,7 +158,6 @@ horizontal_alignment = 1
 [node name="UserInterface" type="CanvasLayer" parent="."]
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-visible = false
 color = Color(0.197937, 0.197937, 0.197937, 1)
 
 [node name="door_a" parent="." instance=ExtResource("6_qtiel")]

@@ -60,7 +60,7 @@ offset_left = 720.0
 offset_top = 232.0
 offset_right = 895.0
 offset_bottom = 274.0
-text = "Game name"
+text = "Bad dream"
 label_settings = SubResource("LabelSettings_t475i")
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="CanvasLayer"]
