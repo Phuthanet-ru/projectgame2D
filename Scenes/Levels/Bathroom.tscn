@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://cqkkf7irnsu54" path="res://Scenes/Props/light.png" id="3_s2ox8"]
 [ext_resource type="Script" uid="uid://bkx86nkdujnem" path="res://Scenes/Levels/sink.gd" id="4_otm32"]
 [ext_resource type="AudioStream" uid="uid://dy3d8aw0rk4oy" path="res://song/เสียงน้ำก๊อกไหล [v9ykYY4ylAE].mp3" id="5_8gk61"]
-[ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorcarpet.tscn" id="6_lpxrv"]
+[ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorลง.tscn" id="6_lpxrv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_12v62"]
 size = Vector2(129, 99)
@@ -74,7 +74,7 @@ offset_left = 294.0
 offset_top = -48.0
 offset_right = 338.0
 offset_bottom = -24.0
-text = "กด E เพื่อ interact"
+text = "Press  E to interact"
 label_settings = SubResource("LabelSettings_p2crp")
 
 [node name="door_b" parent="." instance=ExtResource("6_lpxrv")]

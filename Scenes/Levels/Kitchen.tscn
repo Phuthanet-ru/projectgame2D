@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://w7m6tehvvy3g" path="res://Scenes/Prefabs/player.tscn" id="2_tmt0u"]
 [ext_resource type="Texture2D" uid="uid://cqkkf7irnsu54" path="res://Scenes/Props/light.png" id="3_ssh4o"]
 [ext_resource type="Script" uid="uid://dvcfaevwadi4h" path="res://Scenes/Levels/pan_area.gd" id="4_l5yf5"]
-[ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorcarpet.tscn" id="5_oatfp"]
+[ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorลง.tscn" id="5_oatfp"]
 [ext_resource type="PackedScene" uid="uid://xhdktnpjaop7" path="res://Scenes/Prefabs/key.tscn" id="6_jqaqp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xwycb"]

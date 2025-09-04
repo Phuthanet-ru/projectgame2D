@@ -8,7 +8,7 @@
 [ext_resource type="AudioStream" uid="uid://bno781ajui05k" path="res://song/Knock knock! (sound effect).mp3" id="6_2ox1j"]
 [ext_resource type="FontFile" uid="uid://qgc4vi5osk7v" path="res://Assets/Fonts/Star Choco.ttf" id="7_pjvgm"]
 [ext_resource type="Script" uid="uid://ceemtyyy2afer" path="res://Scripts/Globals.gd" id="8_5f13n"]
-[ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorcarpet.tscn" id="9_ne71n"]
+[ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorลง.tscn" id="9_ne71n"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_lfse1"]
 radius = 14.0

@@ -11,16 +11,17 @@
 [ext_resource type="Script" uid="uid://b1tr6vin60r85" path="res://Scenes/Levels/door.gd" id="9_jgfii"]
 [ext_resource type="AudioStream" uid="uid://bno781ajui05k" path="res://song/Knock knock! (sound effect).mp3" id="10_sjby6"]
 [ext_resource type="FontFile" uid="uid://qgc4vi5osk7v" path="res://Assets/Fonts/Star Choco.ttf" id="11_dx305"]
-[ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorcarpet.tscn" id="12_lptxn"]
+[ext_resource type="PackedScene" uid="uid://dk4gape5x6eww" path="res://Scenes/Prefabs/doorลง.tscn" id="12_lptxn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lgrac"]
 size = Vector2(148, 125.5)
 
 [sub_resource type="LabelSettings" id="LabelSettings_3jb56"]
+font_size = 23
 font_color = Color(1, 0, 0.0627451, 1)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_03st5"]
-size = Vector2(97, 55)
+size = Vector2(97, 88.5)
 
 [sub_resource type="LabelSettings" id="LabelSettings_n6rvj"]
 font_size = 10
@@ -103,13 +104,16 @@ stream = ExtResource("7_j4fhg")
 autoplay = true
 
 [node name="Prompt" type="Label" parent="Level/TileMapLayer3/Frame"]
-offset_left = -294.0
-offset_top = 358.0
-offset_right = -158.0
-offset_bottom = 407.0
+offset_left = -358.0
+offset_top = 328.0
+offset_right = -222.0
+offset_bottom = 395.0
+theme_override_font_sizes/font_size = 17
 text = "Press E
 "
 label_settings = SubResource("LabelSettings_3jb56")
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="CloseSfx" type="AudioStreamPlayer2D" parent="Level/TileMapLayer3/Frame"]
 stream = ExtResource("8_w03ok")
@@ -118,15 +122,15 @@ stream = ExtResource("8_w03ok")
 script = ExtResource("9_jgfii")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Level/TileMapLayer3/Door"]
-position = Vector2(574, 483)
+position = Vector2(576, 467)
 shape = SubResource("RectangleShape2D_03st5")
 
 [node name="Prompt" type="Label" parent="Level/TileMapLayer3/Door"]
-offset_left = 586.0
-offset_top = 441.0
-offset_right = 671.0
-offset_bottom = 464.0
-text = "เปิดประตูสิจ๊ะ"
+offset_left = 539.0
+offset_top = 406.0
+offset_right = 624.0
+offset_bottom = 429.0
+text = "Open the door"
 label_settings = SubResource("LabelSettings_n6rvj")
 
 [node name="KnockSfx" type="AudioStreamPlayer2D" parent="Level/TileMapLayer3/Door"]

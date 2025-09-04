@@ -1,7 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://dq3m7jfwgeg8b"]
+[gd_scene load_steps=8 format=3 uid="uid://dq3m7jfwgeg8b"]
 
 [ext_resource type="Script" uid="uid://ck5l65ao0sbvp" path="res://Scenes/Levels/mainmenu.gd" id="1_t475i"]
-[ext_resource type="Texture2D" uid="uid://clreg520jah1j" path="res://Assets/platformPack_item008.png" id="2_vytfc"]
 [ext_resource type="Script" uid="uid://dd3fj1e82frq" path="res://Scenes/Levels/parallax_background.gd" id="2_xg7my"]
 [ext_resource type="Texture2D" uid="uid://blaimmrp8b3xr" path="res://Scenes/Props/mainmenu.jpg" id="3_wmo1h"]
 [ext_resource type="AudioStream" uid="uid://b134jy6pv8x6q" path="res://song/Dark Piano - Sociopath [VagES3pxttQ].mp3" id="6_b7svq"]
@@ -13,7 +12,7 @@ default_font_size = 30
 default_font_size = 30
 
 [sub_resource type="LabelSettings" id="LabelSettings_t475i"]
-font_size = 30
+font_size = 60
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -36,14 +35,13 @@ offset_bottom = 40.0
 mouse_filter = 2
 
 [node name="Start_Game" type="Button" parent="CanvasLayer"]
-offset_left = 726.0
+offset_left = 658.0
 offset_top = 282.0
 offset_right = 894.0
 offset_bottom = 354.0
 theme = SubResource("Theme_xg7my")
 action_mode = 0
-text = "เริ่มเกม"
-icon = ExtResource("2_vytfc")
+text = "Start"
 
 [node name="Quit_Game" type="Button" parent="CanvasLayer"]
 offset_left = 664.0
@@ -52,16 +50,17 @@ offset_right = 893.0
 offset_bottom = 419.0
 theme = SubResource("Theme_wmo1h")
 action_mode = 0
-text = "ออกจากเกม"
-icon = ExtResource("2_vytfc")
+text = "Quit"
 
 [node name="Label" type="Label" parent="CanvasLayer"]
-offset_left = 720.0
-offset_top = 232.0
-offset_right = 895.0
-offset_bottom = 274.0
+offset_left = 587.0
+offset_top = 161.0
+offset_right = 905.0
+offset_bottom = 244.0
 text = "Bad dream"
 label_settings = SubResource("LabelSettings_t475i")
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="CanvasLayer"]
 layer = -110
