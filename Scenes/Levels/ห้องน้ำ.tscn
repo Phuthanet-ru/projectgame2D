@@ -70,11 +70,11 @@ stream = ExtResource("5_t3lkv")
 autoplay = true
 
 [node name="Prompt" type="Label" parent="Sink"]
-offset_left = 290.0
-offset_top = -40.0
-offset_right = 332.0
-offset_bottom = -17.0
-text = "Close"
+offset_left = 294.0
+offset_top = -48.0
+offset_right = 338.0
+offset_bottom = -24.0
+text = "กด E เพื่อ interact"
 label_settings = SubResource("LabelSettings_p2crp")
 
 [node name="door_b" parent="." instance=ExtResource("3_wouyj")]

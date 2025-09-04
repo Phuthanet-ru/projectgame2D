@@ -23,14 +23,22 @@ func _on_body_exited(body: Node) -> void:
 		player_inside = false
 		prompt.visible = false
 
+# ในสคริปต์ที่ควบคุมการเกิดของผี
 func _process(_delta: float) -> void:
 	if player_inside and Input.is_action_just_pressed("interact"):
 		if sound_on:
 			frame_sound.stop()
-			close_sfx.play()  # 👈 เล่นเสียงตอนปิด
+			close_sfx.play()
 			sound_on = false
-			
 		else:
 			frame_sound.play()
 			sound_on = true
+
+			# โหลด Scene ผี
+			var ghost_scene = load("res://Scenes/Prefabs/ghost.tscn")
+			var ghost = ghost_scene.instantiate()
+			get_tree().current_scene.add_child(ghost)
+
+			# กำหนดพิกัดที่ผีจะเกิด
+			ghost.global_position = Vector2(881, 312) # เปลี่ยนตัวเลขนี้เป็นพิกัดที่ต้องการ
 			

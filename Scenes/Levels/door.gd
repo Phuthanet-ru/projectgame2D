@@ -29,10 +29,18 @@ func _on_exit(body: Node) -> void:
 		player_inside = false
 		prompt.visible = false
 
+# เพิ่มตัวแปรสำหรับฉากจบเกม
+@export var ending_scene_path := "res://Scenes/Ending.tscn"
+
 func _process(_dt: float) -> void:
 	if player_inside and Input.is_action_just_pressed("interact"):
 		if is_locked:
-			_knock_and_flash_locked()
+			# ตรวจสอบว่าผู้เล่นมีกุญแจหรือไม่
+			if GameManager.has_key:
+				is_locked = false # ปลดล็อกประตู
+				_open_door()
+			else:
+				_knock_and_flash_locked()
 		else:
 			_open_door()
 
@@ -50,10 +58,5 @@ func _knock_and_flash_locked() -> void:
 		_reverting = false
 
 func _open_door() -> void:
-	# ประตูไม่ล็อกแล้วค่อยเปิด ใช้ได้ทีหลัง
-	if next_scene_path != "":
-		get_tree().change_scene_to_file(next_scene_path)
-	else:
-		# หรือจะปิดคอลลิชันเองก็ได้
-		$"CollisionShape2D".disabled = true
-		prompt.visible = false
+	# เมื่อประตูถูกเปิด ให้เปลี่ยนไปฉากจบเกมทันที
+	SceneTransition.fade_to_scene(load("res://Scenes/Prefabs/ending.tscn"))

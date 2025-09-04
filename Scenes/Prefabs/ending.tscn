@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://bx3m13t2wbm0p"]
+
+[ext_resource type="Script" uid="uid://dbeacsu084446" path="res://Scenes/Prefabs/ending.gd" id="1_nlviq"]
+[ext_resource type="PackedScene" uid="uid://c5ts7gsfgrxe3" path="res://Scenes/Levels/main_menu.tscn" id="2_22xgh"]
+
+[node name="Ending" type="CanvasLayer"]
+layer = 128
+script = ExtResource("1_nlviq")
+restart_scene = ExtResource("2_22xgh")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = -5
+anchors_preset = -1
+offset_left = 1.99997
+offset_top = -4.00002
+offset_right = 425.0
+offset_bottom = 69.0
+scale = Vector2(2.78429, 9.14119)
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 340.0
+offset_top = 158.0
+offset_right = 763.0
+offset_bottom = 227.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "คุณตื่นจากความฝัน"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Retry" type="Button" parent="."]
+z_index = 10
+offset_left = 435.0
+offset_top = 291.0
+offset_right = 507.0
+offset_bottom = 334.0
+theme_override_font_sizes/font_size = 25
+text = "Retry"
+
+[node name="Quit" type="Button" parent="."]
+z_index = 10
+offset_left = 616.0
+offset_top = 290.0
+offset_right = 676.0
+offset_bottom = 333.0
+theme_override_font_sizes/font_size = 25
+text = "Quit"
+
+[connection signal="pressed" from="Retry" to="." method="_on_retry_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

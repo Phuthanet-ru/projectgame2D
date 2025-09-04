@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=4 uid="uid://bjb3dx2x4bocm"]
+[gd_scene load_steps=17 format=4 uid="uid://bjb3dx2x4bocm"]
 
 [ext_resource type="PackedScene" uid="uid://w7m6tehvvy3g" path="res://Scenes/Prefabs/player.tscn" id="2_lpo2y"]
 [ext_resource type="PackedScene" uid="uid://bfmh3fm2de78o" path="res://Scenes/Prefabs/Coin.tscn" id="3_nht2m"]
@@ -12,7 +12,6 @@
 [ext_resource type="AudioStream" uid="uid://de8i7qkdiqv50" path="res://เพลง/Dark Piano - Silence.mp3" id="8_i3t43"]
 [ext_resource type="Script" uid="uid://b1tr6vin60r85" path="res://Scenes/Levels/door.gd" id="9_n6rvj"]
 [ext_resource type="AudioStream" uid="uid://bno781ajui05k" path="res://เพลง/Knock knock! (sound effect).mp3" id="10_i3t43"]
-[ext_resource type="PackedScene" uid="uid://currw1kyxmsoi" path="res://Scenes/Prefabs/ghost.tscn" id="12_n6rvj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lgrac"]
 size = Vector2(148, 125.5)
@@ -177,6 +176,3 @@ position = Vector2(881, 312)
 target_scene = "res://Scenes/Levels/ห้องครัว.tscn"
 target_door = "door_c"
 door_id = "door_c"
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("12_n6rvj")]
-position = Vector2(911, 318)

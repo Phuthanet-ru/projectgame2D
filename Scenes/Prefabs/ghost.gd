@@ -24,8 +24,12 @@ func _physics_process(delta: float) -> void:
 	
 	move_and_slide()
 	
-func _on_body_entered(body: Node) -> void:
-	if body.is_in_group("Player"):
-		# Spawn Game Over UI
-		var game_over_ui = load("res://Scenes/Prefabs/game_over.tscn").instantiate()
-		get_tree().current_scene.add_child(game_over_ui)
+# ในสคริปต์ของผี (ghost.gd)
+func _on_body_entered(body):
+	if body.name == "Player":
+		# หยุดการทำงานของสคริปต์ผู้เล่น
+		body.set_process(false)
+		body.set_physics_process(false)
+
+		# เรียกใช้ SceneTransition โดยส่งพาธของฉาก Game Over ไป
+		SceneTransition.fade_to_scene(load("res://Scenes/Prefabs/game_over.tscn"))
