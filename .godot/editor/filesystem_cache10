@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1756964065
+::res://::1756965617
 default_env.tres::Environment/Environment::3168362695892368327::1756936277::0::1::::<><><>0<>0<><>::
 doorลง.gd::GDScript/GDScript::3835118339205834686::1756936277::0::1::::<>Area2D<><>0<>0<><>::
 export_presets.cfg::TextFile/TextFile::-1::1756961710::0::1::::<><><>0<>0<><>::
@@ -9,70 +9,71 @@ README.md::TextFile/TextFile::-1::1756936277::0::1::::<><><>0<>0<><>::
 scene_transition.gd::GDScript/GDScript::1893853635707166234::1756936277::0::1::::<>Node<><>0<>0<><>::
 story_trigger.gd::GDScript/GDScript::3703145492769888979::1756936277::0::1::::<>Area2D<><>0<>0<><>::
 transition_layer.gd::GDScript/GDScript::8471967387992771518::1756936277::0::1::::<>CanvasLayer<><>0<>0<><>::
-::res://Assets/::1756952280
+::res://Assets/::1756965443
 platformPack_item008.png::CompressedTexture2D/CompressedTexture2D::5580268270516214921::1756936277::1756952280::1::::<><><>0<>0<>bdeca53c9a635c182b6fe97373aa131a<>res://.godot/imported/platformPack_item008.png-339e34cd1e03c545a5e528118431a19a.ctex::
 platformPack_tile048.png::CompressedTexture2D/CompressedTexture2D::5572625094219394687::1756936277::1756952280::1::::<><><>0<>0<>758b91baf466524304c43aba3ce0d8a3<>res://.godot/imported/platformPack_tile048.png-18e2e5edfd0d4e70510ccb5281217cef.ctex::
-::res://Assets/Fonts/::1756952280
+::res://Assets/Fonts/::1756965443
 Star Choco.ttf::FontFile/FontFile::1135582103472931629::1756936277::1756952280::1::::<><><>0<>0<>fec5e8021f117b7881dade73fdbace0c<>res://.godot/imported/Star Choco.ttf-38e1aa34935d10ed02d594add8081993.fontdata::
-::res://Assets/Sound/::1756936277
-::res://Assets/Sound/FX/::1756952281
+::res://Assets/Sound/::1756965409
+::res://Assets/Sound/FX/::1756965443
 30_Jump_03.wav::AudioStreamWAV/AudioStreamWAV::9147479056271028219::1756936277::1756952281::1::::<><><>0<>0<>642cf1d0b9ffa8b3379c71143bf1ba3f<>res://.godot/imported/30_Jump_03.wav-72e0fc43a460d001be89cd8942917b53.sample::
-::res://Assets/Splash/::1756952280
+::res://Assets/Splash/::1756965443
 2D Platformer Starter Kit Splash.png::CompressedTexture2D/CompressedTexture2D::559863941929811480::1756936277::1756952280::1::::<><><>0<>0<>e46329730962789c40f1e0d383965769<>res://.godot/imported/2D Platformer Starter Kit Splash.png-d2864ca8c945c1c7a9f0b5e892f3a8a6.ctex::
-::res://Assets/Spritesheet/::1756952281
+::res://Assets/Spritesheet/::1756965443
 IMG_7834.png::CompressedTexture2D/CompressedTexture2D::2847862158117956929::1756936277::1756952280::1::::<><><>0<>0<>ce5474a9d1e2888185a74e6ea4648719<>res://.godot/imported/IMG_7834.png-94468d39ba405326f644b962410f20d2.ctex::
 platformerPack_character.png::CompressedTexture2D/CompressedTexture2D::4881342531443074800::1756936277::1756952280::1::::<><><>0<>0<>cbc06ebc4577b0bbfdd579e46d150b57<>res://.godot/imported/platformerPack_character.png-b980ac2e92b0d9489fe95f0cfb6b85bd.ctex::
 platformPack_tilesheet.png::CompressedTexture2D/CompressedTexture2D::631954010946117902::1756936277::1756952281::1::::<><><>0<>0<>a3c5fe402d27867906282dda91b5c123<>res://.godot/imported/platformPack_tilesheet.png-fc10a909d9980a6f05e91d5e6933a32a.ctex::
-::res://Assets/Textures/::1756952280
+::res://Assets/Textures/::1756965443
 CloudTexture.png::CompressedTexture2D/CompressedTexture2D::8806572391911018943::1756936277::1756952280::1::::<><><>0<>0<>b9167a6c37492d4efa1a4d16b3adfe0f<>res://.godot/imported/CloudTexture.png-0850ca8efee33f2d24401144f48bb72a.ctex::
 star_07.png::CompressedTexture2D/CompressedTexture2D::2233171978247897944::1756936277::1756952280::1::::<><><>0<>0<>5a69c0eac281d41fc619a301451deeb6<>res://.godot/imported/star_07.png-7e3ffada412c3071411936d2be8df2aa.ctex::
-::res://docs/::1756962809
+::res://docs/::1756965443
 index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::5446610157647446074::1756961709::1756962809::1::::<><><>0<>0<>a38088a8aff7d7a7e196862c245638d7<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
 index.icon.png::CompressedTexture2D/CompressedTexture2D::6789284000251056016::1756961709::1756962809::1::::<><><>0<>0<>244142b4c12efc54cc57385fe99d0a94<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
 index.png::CompressedTexture2D/CompressedTexture2D::1295054801416674932::1756961709::1756962809::1::::<><><>0<>0<>778002ac0fc28963435d16a38996768a<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
-::res://player/::1756952281
+::res://player/::1756965443
 charPlayer.tscn::PackedScene/PackedScene::8416338816354861110::1756936277::0::1::::<><><>0<>0<><>::uid://5wy6xaouc5l8::::res://player/IMG_7836.PNG
 char_player.gd::GDScript/GDScript::4001564825624439496::1756936277::0::1::::<>Area2D<><>0<>0<><>::
 IMG_7834.PNG::CompressedTexture2D/CompressedTexture2D::8133640116603965590::1756936277::1756952281::1::::<><><>0<>0<>7605bfa0822e96d1d7b236cf1df9fc82<>res://.godot/imported/IMG_7834.PNG-3aec95fc3253f1b12324fb07f05e4703.ctex::
 IMG_7836.PNG::CompressedTexture2D/CompressedTexture2D::2152595395867723167::1756936277::1756952281::1::::<><><>0<>0<>dc3a524135b59941c127e97f4dac3821<>res://.godot/imported/IMG_7836.PNG-f72751c0aee117a85d38a4913576702f.ctex::
-::res://Scenes/::1756936277
-::res://Scenes/Levels/::1756964064
-Bathroom.tscn::PackedScene::1643361013994128698::1756964064::0::1::::<><><>0<>0<><>::uid://cvuradly8ktbj::::res://Scenes/Props/Tileset.tres<>uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png<>uid://bkx86nkdujnem::::res://Scenes/Levels/sink.gd<>uid://dy3d8aw0rk4oy::::res://song/เสียงน้ำก๊อกไหล [v9ykYY4ylAE].mp3<>uid://dk4gape5x6eww::::res://Scenes/Prefabs/doorcarpet.tscn
-Bedroom.tscn::PackedScene::8816367584127493791::1756964064::0::1::::<><><>0<>0<><>::uid://bfmh3fm2de78o::::res://Scenes/Prefabs/Coin.tscn<>uid://cvuradly8ktbj::::res://Scenes/Props/Tileset.tres<>uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png<>uid://dr87fuw4n5re0::::res://Scenes/Levels/closet.gd<>uid://bno781ajui05k::::res://song/Knock knock! (sound effect).mp3<>uid://qgc4vi5osk7v::::res://Assets/Fonts/Star Choco.ttf<>uid://ceemtyyy2afer::::res://Scripts/Globals.gd<>uid://dk4gape5x6eww::::res://Scenes/Prefabs/doorcarpet.tscn
+::res://Scenes/::1756965409
+::res://Scenes/Levels/::1756965561
+Bathroom.tscn::PackedScene::1643361013994128698::1756964436::0::1::::<><><>0<>0<><>::uid://cvuradly8ktbj::::res://Scenes/Props/Tileset.tres<>uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png<>uid://bkx86nkdujnem::::res://Scenes/Levels/sink.gd<>uid://dy3d8aw0rk4oy::::res://song/เสียงน้ำก๊อกไหล [v9ykYY4ylAE].mp3<>uid://dk4gape5x6eww::::res://Scenes/Prefabs/doorcarpet.tscn
+Bedroom.tscn::PackedScene::8816367584127493791::1756964436::0::1::::<><><>0<>0<><>::uid://bfmh3fm2de78o::::res://Scenes/Prefabs/Coin.tscn<>uid://cvuradly8ktbj::::res://Scenes/Props/Tileset.tres<>uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png<>uid://dr87fuw4n5re0::::res://Scenes/Levels/closet.gd<>uid://bno781ajui05k::::res://song/Knock knock! (sound effect).mp3<>uid://qgc4vi5osk7v::::res://Assets/Fonts/Star Choco.ttf<>uid://ceemtyyy2afer::::res://Scripts/Globals.gd<>uid://dk4gape5x6eww::::res://Scenes/Prefabs/doorcarpet.tscn
 closet.gd::GDScript/GDScript::8422549817336776261::1756936277::0::1::::<>Area2D<><>0<>0<><>::
-door.gd::GDScript/GDScript::4251642460079039132::1756960346::0::1::::<>Area2D<><>0<>0<><>::
-frame.gd::GDScript/GDScript::8746104537048194593::1756958210::0::1::::<>Area2D<><>0<>0<><>::
-Hallway.tscn::PackedScene::4493199523917759704::1756964064::0::1::::<><><>0<>0<><>::uid://bfmh3fm2de78o::::res://Scenes/Prefabs/Coin.tscn<>uid://ceemtyyy2afer::::res://Scripts/Globals.gd<>uid://cvuradly8ktbj::::res://Scenes/Props/Tileset.tres<>uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png<>uid://dwuxcf4wknk4x::::res://Scenes/Levels/frame.gd<>uid://dd6a1o0y8gvs7::::res://song/Hyper Realistic Knocking on Window.mp3<>uid://de8i7qkdiqv50::::res://song/Dark Piano - Silence.mp3<>uid://b1tr6vin60r85::::res://Scenes/Levels/door.gd<>uid://bno781ajui05k::::res://song/Knock knock! (sound effect).mp3<>uid://qgc4vi5osk7v::::res://Assets/Fonts/Star Choco.ttf<>uid://dk4gape5x6eww::::res://Scenes/Prefabs/doorcarpet.tscn
-Kitchen.tscn::PackedScene/PackedScene::4598495881890254166::1756964047::0::1::::<><><>0<>0<><>::uid://cvuradly8ktbj::::res://Scenes/Props/Tileset.tres<>uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png<>uid://dvcfaevwadi4h::::res://Scenes/Levels/pan_area.gd<>uid://dk4gape5x6eww::::res://Scenes/Prefabs/doorลง.tscn<>uid://xhdktnpjaop7::::res://Scenes/Prefabs/key.tscn
-mainmenu.gd::GDScript/GDScript::5537385959290520125::1756936277::0::1::::<>Control<><>0<>0<><>::
-main_menu.tscn::PackedScene::8340872357161585275::1756964064::0::1::::<><><>0<>0<><>::uid://ck5l65ao0sbvp::::res://Scenes/Levels/mainmenu.gd<>uid://clreg520jah1j::::res://Assets/platformPack_item008.png<>uid://dd3fj1e82frq::::res://Scenes/Levels/parallax_background.gd<>uid://blaimmrp8b3xr::::res://Scenes/Props/mainmenu.jpg<>uid://b134jy6pv8x6q::::res://song/Dark Piano - Sociopath [VagES3pxttQ].mp3
+door.gd::GDScript::4251642460079039132::1756960346::0::1::::<>Area2D<><>0<>0<><>::
+frame.gd::GDScript::8746104537048194593::1756958210::0::1::::<>Area2D<><>0<>0<><>::
+Hallway.tscn::PackedScene::4493199523917759704::1756964436::0::1::::<><><>0<>0<><>::uid://bfmh3fm2de78o::::res://Scenes/Prefabs/Coin.tscn<>uid://ceemtyyy2afer::::res://Scripts/Globals.gd<>uid://cvuradly8ktbj::::res://Scenes/Props/Tileset.tres<>uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png<>uid://dwuxcf4wknk4x::::res://Scenes/Levels/frame.gd<>uid://dd6a1o0y8gvs7::::res://song/Hyper Realistic Knocking on Window.mp3<>uid://de8i7qkdiqv50::::res://song/Dark Piano - Silence.mp3<>uid://b1tr6vin60r85::::res://Scenes/Levels/door.gd<>uid://bno781ajui05k::::res://song/Knock knock! (sound effect).mp3<>uid://qgc4vi5osk7v::::res://Assets/Fonts/Star Choco.ttf<>uid://dk4gape5x6eww::::res://Scenes/Prefabs/doorcarpet.tscn
+Kitchen.tscn::PackedScene::4598495881890254166::1756964436::0::1::::<><><>0<>0<><>::uid://cvuradly8ktbj::::res://Scenes/Props/Tileset.tres<>uid://w7m6tehvvy3g::::res://Scenes/Prefabs/player.tscn<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png<>uid://dvcfaevwadi4h::::res://Scenes/Levels/pan_area.gd<>uid://dk4gape5x6eww::::res://Scenes/Prefabs/doorcarpet.tscn<>uid://xhdktnpjaop7::::res://Scenes/Prefabs/key.tscn
+mainmenu.gd::GDScript::5537385959290520125::1756964209::0::1::::<>Control<><>0<>0<><>::
+main_menu.tscn::PackedScene::8340872357161585275::1756964435::0::1::::<><><>0<>0<><>::uid://ck5l65ao0sbvp::::res://Scenes/Levels/mainmenu.gd<>uid://clreg520jah1j::::res://Assets/platformPack_item008.png<>uid://dd3fj1e82frq::::res://Scenes/Levels/parallax_background.gd<>uid://blaimmrp8b3xr::::res://Scenes/Props/mainmenu.jpg<>uid://b134jy6pv8x6q::::res://song/Dark Piano - Sociopath [VagES3pxttQ].mp3
 pan_area.gd::GDScript/GDScript::8637660351483935897::1756936277::0::1::::<>Area2D<><>0<>0<><>::
 parallax_background.gd::GDScript/GDScript::218469182045236430::1756936277::0::1::::<>ParallaxBackground<><>0<>0<><>::
 sink.gd::GDScript/GDScript::3137849527204142768::1756936277::0::1::::<>Area2D<><>0<>0<><>::
-::res://Scenes/Managers/::1756936277
+::res://Scenes/Managers/::1756965443
 AudioManager.tscn::PackedScene/PackedScene::3687542464613950215::1756936277::0::1::::<><><>0<>0<><>::uid://cdtbtjgoh6tak::::res://Scripts/AudioManager.gd
 SceneTransition.tscn::PackedScene/PackedScene::4586814363756221592::1756936277::0::1::::<><><>0<>0<><>::uid://cfks7sxsrpllk::::res://Scripts/SceneTransition.gd
-::res://Scenes/Prefabs/::1756964047
+::res://Scenes/Prefabs/::1756965443
 carpetnextlevel.gd::GDScript/GDScript::8133706028636116006::1756936277::0::1::::<>Area2D<><>0<>0<><>::
 carpetnextlevel.tscn::PackedScene/PackedScene::1603789715899394671::1756963992::0::1::::<><><>0<>0<><>::uid://dn5a7kesd2m6q::::res://Scenes/Prefabs/carpetnextlevel.gd<>uid://b5aslsxlwyama::::res://Scenes/Levels/Hallway.tscn<>uid://hbegl1uga0mh::::res://Scenes/Props/Carpet .png
 Coin.tscn::PackedScene/PackedScene::2762612738496047136::1756936277::0::1::::<><><>0<>0<><>::uid://3omadr6gudia::::res://Scripts/Coin.gd<>uid://jaegp53ccc7w::::res://Assets/Spritesheet/platformPack_tilesheet.png<>uid://621as0fwjhum::::res://Assets/Textures/star_07.png
 DialogueBox.gd::GDScript/GDScript::8486821244591592291::1756936277::0::1::::<>Control<><>0<>0<><>::
 dialogue_box.tscn::PackedScene/PackedScene::7986097771336679897::1756936277::0::1::::<><><>0<>0<><>::uid://ds6cyac8rxc08::::res://Scenes/Prefabs/DialogueBox.gd<>uid://d4dphvl4ao3d2::::res://Scenes/Props/Textbox.png
-doorcarpet.tscn::PackedScene::7921382539708451386::1756936277::0::1::::<><><>0<>0<><>::uid://buv03rtnwa55k::::res://doorลง.gd<>uid://hbegl1uga0mh::::res://Scenes/Props/Carpet .png
-ending.gd::GDScript/GDScript::7237712954818934405::1756960824::0::1::::<>CanvasLayer<><>0<>0<><>::
-ending.tscn::PackedScene/PackedScene::4059343200297542297::1756963835::0::1::::<><><>0<>0<><>::uid://dbeacsu084446::::res://Scenes/Prefabs/ending.gd<>uid://dq3m7jfwgeg8b::::res://Scenes/Levels/main_menu.tscn
-game_over.gd::GDScript/GDScript::5183231968096338275::1756958445::0::1::::<>CanvasLayer<><>0<>0<><>::
-game_over.tscn::PackedScene/PackedScene::4216375986731528999::1756963835::0::1::::<><><>0<>0<><>::uid://cf32cqwon1fwd::::res://Scenes/Prefabs/game_over.gd<>uid://dq3m7jfwgeg8b::::res://Scenes/Levels/main_menu.tscn
-ghost.gd::GDScript/GDScript::389255216216775518::1756960305::0::1::::<>CharacterBody2D<><>0<>0<><>::
-ghost.tscn::PackedScene/PackedScene::6212785520485630332::1756963835::0::1::::<><><>0<>0<><>::uid://fss8g462wf7k::::res://Scenes/Prefabs/ghost.gd<>uid://bqlfeai36mglb::::res://Scenes/Props/Ghost.png
-key.gd::GDScript/GDScript::2273501578895600446::1756959309::0::1::::<>Area2D<><>0<>0<><>::
-key.tscn::PackedScene/PackedScene::1628995075590196870::1756963835::0::1::::<><><>0<>0<><>::uid://7nkiedoyw615::::res://Scenes/Prefabs/key.gd<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png
+doorcarpet.tscn::PackedScene/PackedScene::7921382539708451386::1756936277::0::1::::<><><>0<>0<><>::uid://buv03rtnwa55k::::res://doorลง.gd<>uid://hbegl1uga0mh::::res://Scenes/Props/Carpet .png
+doorลง.tscn::PackedScene::7921382539708451386::1756965409::0::1::::<><><>0<>0<><>::uid://buv03rtnwa55k::::res://doorลง.gd<>uid://hbegl1uga0mh::::res://Scenes/Props/Carpet .png
+ending.gd::GDScript::7237712954818934405::1756960824::0::1::::<>CanvasLayer<><>0<>0<><>::
+ending.tscn::PackedScene::4059343200297542297::1756964436::0::1::::<><><>0<>0<><>::uid://dbeacsu084446::::res://Scenes/Prefabs/ending.gd<>uid://dq3m7jfwgeg8b::::res://Scenes/Levels/main_menu.tscn
+game_over.gd::GDScript::5183231968096338275::1756958445::0::1::::<>CanvasLayer<><>0<>0<><>::
+game_over.tscn::PackedScene::4216375986731528999::1756964436::0::1::::<><><>0<>0<><>::uid://cf32cqwon1fwd::::res://Scenes/Prefabs/game_over.gd<>uid://dq3m7jfwgeg8b::::res://Scenes/Levels/main_menu.tscn
+ghost.gd::GDScript::389255216216775518::1756960305::0::1::::<>CharacterBody2D<><>0<>0<><>::
+ghost.tscn::PackedScene::6212785520485630332::1756964436::0::1::::<><><>0<>0<><>::uid://fss8g462wf7k::::res://Scenes/Prefabs/ghost.gd<>uid://bqlfeai36mglb::::res://Scenes/Props/Ghost.png
+key.gd::GDScript::2273501578895600446::1756959309::0::1::::<>Area2D<><>0<>0<><>::
+key.tscn::PackedScene::1628995075590196870::1756964436::0::1::::<><><>0<>0<><>::uid://7nkiedoyw615::::res://Scenes/Prefabs/key.gd<>uid://cqkkf7irnsu54::::res://Scenes/Props/light.png
 LevelFinishDoor.tscn::PackedScene/PackedScene::6497134272342753133::1756936277::0::1::::<><><>0<>0<><>::uid://cgpsujoyqxscj::::res://Scripts/LevelFinishDoor.gd<>uid://b6lw1qw10tv2i::::res://Scenes/Props/1doorswindowsstairs_LRK.png
 level_finish_carpet.gd::GDScript/GDScript::7360253859204814249::1756936277::0::1::::<>Area2D<><>0<>0<><>::
-player.tscn::PackedScene/PackedScene::1610999616160710134::1756963835::0::1::::<><><>0<>0<><>::uid://dtvbnnqlnvtjj::::res://Scripts/player.gd<>uid://5wy6xaouc5l8::::res://player/IMG_7836.PNG<>uid://dxp77wq60c2rr::::res://Assets/Textures/CloudTexture.png
+player.tscn::PackedScene::1610999616160710134::1756964436::0::1::::<><><>0<>0<><>::uid://dtvbnnqlnvtjj::::res://Scripts/player.gd<>uid://5wy6xaouc5l8::::res://player/IMG_7836.PNG<>uid://dxp77wq60c2rr::::res://Assets/Textures/CloudTexture.png
 SceneTransition.gd::GDScript/GDScript::3391786491264489164::1756936277::0::1::::<>Node<><>0<>0<><>::
 story_trigger.tscn::PackedScene/PackedScene::4673065100015705343::1756936277::0::1::::<><><>0<>0<><>::uid://bs03jaut380yx::::res://story_trigger.gd
-::res://Scenes/Props/::1756952488
+::res://Scenes/Props/::1756965443
 1doorswindowsstairs_LRK.png::CompressedTexture2D/CompressedTexture2D::4586366071823952858::1756936277::1756952281::1::::<><><>0<>0<>9862dafb17b1a622ae4dab468f69d439<>res://.godot/imported/1doorswindowsstairs_LRK.png-827539308671da863eb40a651103269f.ctex::
 beds_BR.png::CompressedTexture2D/CompressedTexture2D::5744205609091417768::1756936277::1756952281::1::::<><><>0<>0<>28504baa39e43311fe8a290bf0162ec9<>res://.godot/imported/beds_BR.png-2747b1b602a2da338a766f61e125730a.ctex::
 cabinets_LRK.png::CompressedTexture2D/CompressedTexture2D::4028343234140631647::1756936277::1756952281::1::::<><><>0<>0<>b31f9b9868ebee6141db67b6473d78ba<>res://.godot/imported/cabinets_LRK.png-49e3b61948eec35c14ac8d8871bd8ab7.ctex::
@@ -89,20 +90,20 @@ mainmenu.jpg::CompressedTexture2D/CompressedTexture2D::3159005786448027463::1756
 OmoriHomesSunset.png::CompressedTexture2D/CompressedTexture2D::7341405466539196390::1756936277::1756952281::1::::<><><>0<>0<>676aa9d85ab9edd43e38ea999fde4280<>res://.godot/imported/OmoriHomesSunset.png-101fb7c8f3958c2c5633931098d53572.ctex::
 PC _ Computer - Omori - Tilesets - Faraway Town Interior Homes (Sunset).png::CompressedTexture2D/CompressedTexture2D::5496743465624967852::1756936277::1756952281::1::::<><><>0<>0<>039a75c68952acd3e41e1bacb819d3f0<>res://.godot/imported/PC _ Computer - Omori - Tilesets - Faraway Town Interior Homes (Sunset).png-dcb36f5c5320d2ae449910abd0a6445f.ctex::
 Textbox.png::CompressedTexture2D/CompressedTexture2D::9201856026594664513::1756936277::1756952281::1::::<><><>0<>0<>622c95aa1b775889ef9208ee0e95503e<>res://.godot/imported/Textbox.png-322d7fe30c77b7c2c892f3837274bc53.ctex::
-Tileset.tres::TileSet/TileSet::6289127003440970903::1756952488::0::1::::<><><>0<>0<><>::uid://cn3shytvdd217::::res://Scenes/Props/beds_BR.png<>uid://b521vkvav4cdl::::res://Scenes/Props/floorswalls_LRK.png<>uid://dcuh41alrksvu::::res://Scenes/Props/OmoriHomesSunset.png<>uid://bxnmhvspp2f2n::::res://Scenes/Props/cabinets_LRK.png<>uid://b6lw1qw10tv2i::::res://Scenes/Props/1doorswindowsstairs_LRK.png<>uid://dyf5xnx0onida::::res://Scenes/Props/doorswindowsstairs_LRK.png
+Tileset.tres::TileSet::6289127003440970903::1756952488::0::1::::<><><>0<>0<><>::uid://cn3shytvdd217::::res://Scenes/Props/beds_BR.png<>uid://b521vkvav4cdl::::res://Scenes/Props/floorswalls_LRK.png<>uid://dcuh41alrksvu::::res://Scenes/Props/OmoriHomesSunset.png<>uid://bxnmhvspp2f2n::::res://Scenes/Props/cabinets_LRK.png<>uid://b6lw1qw10tv2i::::res://Scenes/Props/1doorswindowsstairs_LRK.png<>uid://dyf5xnx0onida::::res://Scenes/Props/doorswindowsstairs_LRK.png
 wardrobes_BR.png::CompressedTexture2D/CompressedTexture2D::6799112005280437887::1756936277::1756952280::1::::<><><>0<>0<>3f56c050e2d36654e77afec332459894<>res://.godot/imported/wardrobes_BR.png-75c07d463eed2b7b224588afed3837d1.ctex::
-::res://Scripts/::1756959019
+::res://Scripts/::1756965443
 AudioManager.gd::GDScript/GDScript::5022726205330062974::1756936277::0::1::::<>Node<><>0<>0<><>::
 Coin.gd::GDScript/GDScript::1994917699583972668::1756936277::0::1::::<>Area2D<><>0<>0<><>::
 GameManager.gd::GDScript/GDScript::5062618085714207965::1756936277::0::1::::<>Node2D<><>0<>0<><>::
 GameUI.gd::GDScript/GDScript::7222707466444776569::1756936277::0::1::::<>Control<><>0<>0<><>::
-Globals.gd::GDScript/GDScript::5062618085714207965::1756959019::0::1::::<>Node<><>0<>0<><>::
+Globals.gd::GDScript::5062618085714207965::1756959019::0::1::::<>Node<><>0<>0<><>::
 LevelFinishDoor.gd::GDScript/GDScript::5226069212723356877::1756936277::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript/GDScript::8536286653389136095::1756956662::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::8536286653389136095::1756964435::0::1::::<>CharacterBody2D<><>0<>0<><>::
 SceneTransition.gd::GDScript/GDScript::5145580396183676980::1756936277::0::1::::<>CanvasLayer<><>0<>0<><>::
-::res://song/::1756952458
-Dark Piano - Silence.mp3::AudioStreamMP3::7508685628831791305::1756952429::1756964065::1::::<><><>0<>0<>672a65dea36fb69eda752b3dee64ae71<>res://.godot/imported/Dark Piano - Silence.mp3-6ad88e306b8c133cbc3b8393b363fa3f.mp3str::
-Dark Piano - Sociopath [VagES3pxttQ].mp3::AudioStreamMP3::4270911369491247746::1756936277::1756964065::1::::<><><>0<>0<>f383b2cc65956190c4ed8604a8e66fe9<>res://.godot/imported/Dark Piano - Sociopath [VagES3pxttQ].mp3-0376ba18046e8a3d0f8dc08e4d6c5cb4.mp3str::
-Hyper Realistic Knocking on Window.mp3::AudioStreamMP3::7433871498092603096::1756936277::1756964065::1::::<><><>0<>0<>f688836b40fb09759011933bebede73c<>res://.godot/imported/Hyper Realistic Knocking on Window.mp3-5975308baa4fb4b678bb74ae307bff6b.mp3str::
-Knock knock! (sound effect).mp3::AudioStreamMP3::3329780180554840970::1756936277::1756964065::1::::<><><>0<>0<>1a65047d88cc1122474d44113de55095<>res://.godot/imported/Knock knock! (sound effect).mp3-82c68b2e35399d0a89a3679c3b14c0f9.mp3str::
-เสียงน้ำก๊อกไหล [v9ykYY4ylAE].mp3::AudioStreamMP3::8901837992827642600::1756936277::1756964065::1::::<><><>0<>0<>2adc19bb1d9595d0a4d23a74432dfc10<>res://.godot/imported/เสียงน้ำก๊อกไหล [v9ykYY4ylAE].mp3-334cc03ab6480a81e25dab8a9ab79baf.mp3str::
+::res://song/::1756964065
+Dark Piano - Silence.mp3::AudioStreamMP3/AudioStreamMP3::7508685628831791305::1756952429::1756964065::1::::<><><>0<>0<>672a65dea36fb69eda752b3dee64ae71<>res://.godot/imported/Dark Piano - Silence.mp3-6ad88e306b8c133cbc3b8393b363fa3f.mp3str::
+Dark Piano - Sociopath [VagES3pxttQ].mp3::AudioStreamMP3/AudioStreamMP3::4270911369491247746::1756936277::1756964065::1::::<><><>0<>0<>f383b2cc65956190c4ed8604a8e66fe9<>res://.godot/imported/Dark Piano - Sociopath [VagES3pxttQ].mp3-0376ba18046e8a3d0f8dc08e4d6c5cb4.mp3str::
+Hyper Realistic Knocking on Window.mp3::AudioStreamMP3/AudioStreamMP3::7433871498092603096::1756936277::1756964065::1::::<><><>0<>0<>f688836b40fb09759011933bebede73c<>res://.godot/imported/Hyper Realistic Knocking on Window.mp3-5975308baa4fb4b678bb74ae307bff6b.mp3str::
+Knock knock! (sound effect).mp3::AudioStreamMP3/AudioStreamMP3::3329780180554840970::1756936277::1756964065::1::::<><><>0<>0<>1a65047d88cc1122474d44113de55095<>res://.godot/imported/Knock knock! (sound effect).mp3-82c68b2e35399d0a89a3679c3b14c0f9.mp3str::
+เสียงน้ำก๊อกไหล [v9ykYY4ylAE].mp3::AudioStreamMP3/AudioStreamMP3::8901837992827642600::1756936277::1756964065::1::::<><><>0<>0<>2adc19bb1d9595d0a4d23a74432dfc10<>res://.godot/imported/เสียงน้ำก๊อกไหล [v9ykYY4ylAE].mp3-334cc03ab6480a81e25dab8a9ab79baf.mp3str::
