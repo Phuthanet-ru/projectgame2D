@@ -1,10 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://c5ts7gsfgrxe3"]
+[gd_scene load_steps=9 format=3 uid="uid://dq3m7jfwgeg8b"]
 
 [ext_resource type="Script" uid="uid://ck5l65ao0sbvp" path="res://Scenes/Levels/mainmenu.gd" id="1_t475i"]
 [ext_resource type="Texture2D" uid="uid://clreg520jah1j" path="res://Assets/platformPack_item008.png" id="2_vytfc"]
 [ext_resource type="Script" uid="uid://dd3fj1e82frq" path="res://Scenes/Levels/parallax_background.gd" id="2_xg7my"]
 [ext_resource type="Texture2D" uid="uid://blaimmrp8b3xr" path="res://Scenes/Props/mainmenu.jpg" id="3_wmo1h"]
-[ext_resource type="AudioStream" uid="uid://b134jy6pv8x6q" path="res://เพลง/Dark Piano - Sociopath [VagES3pxttQ].mp3" id="6_b7svq"]
+[ext_resource type="AudioStream" uid="uid://b134jy6pv8x6q" path="res://song/Dark Piano - Sociopath [VagES3pxttQ].mp3" id="6_b7svq"]
 
 [sub_resource type="Theme" id="Theme_xg7my"]
 default_font_size = 30

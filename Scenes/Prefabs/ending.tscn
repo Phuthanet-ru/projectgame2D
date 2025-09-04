@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bx3m13t2wbm0p"]
 
 [ext_resource type="Script" uid="uid://dbeacsu084446" path="res://Scenes/Prefabs/ending.gd" id="1_nlviq"]
-[ext_resource type="PackedScene" uid="uid://c5ts7gsfgrxe3" path="res://Scenes/Levels/main_menu.tscn" id="2_22xgh"]
+[ext_resource type="PackedScene" uid="uid://dq3m7jfwgeg8b" path="res://Scenes/Levels/main_menu.tscn" id="2_22xgh"]
 
 [node name="Ending" type="CanvasLayer"]
 layer = 128

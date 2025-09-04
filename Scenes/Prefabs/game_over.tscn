@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b1cpdjsdlpyux"]
 
 [ext_resource type="Script" uid="uid://cf32cqwon1fwd" path="res://Scenes/Prefabs/game_over.gd" id="1_ferdd"]
-[ext_resource type="PackedScene" uid="uid://c5ts7gsfgrxe3" path="res://Scenes/Levels/main_menu.tscn" id="2_egfxn"]
+[ext_resource type="PackedScene" uid="uid://dq3m7jfwgeg8b" path="res://Scenes/Levels/main_menu.tscn" id="2_egfxn"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_egfxn"]
 font_size = 50

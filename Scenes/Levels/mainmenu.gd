@@ -8,7 +8,7 @@ func _ready() -> void:
 
 func _on_Start_Game_button_pressed() -> void:
 	menu.stop()  # กดเริ่มเกมแล้วหยุดเพลงเมนู
-	get_tree().change_scene_to_file("res://Scenes/Levels/ห้องนอน.tscn")
+	get_tree().change_scene_to_file("res://Scenes/Levels/Bedroom.tscn")
 	
 
 func _on_Quit_Game_button_pressed() -> void:

@@ -4,7 +4,6 @@ extends CharacterBody2D
 @export var move_speed : float = 200
 
 @onready var player_sprite = $AnimatedSprite2D
-@onready var spawn_point = %SpawnPoint
 @onready var death_particles = $DeathParticles
 
 
@@ -43,7 +42,6 @@ func death_tween():
 	var tween = create_tween()
 	tween.tween_property(self, "scale", Vector2.ZERO, 0.15)
 	await tween.finished
-	global_position = spawn_point.global_position
 	await get_tree().create_timer(0.3).timeout
 	AudioManager.respawn_sfx.play()
 	respawn_tween()
