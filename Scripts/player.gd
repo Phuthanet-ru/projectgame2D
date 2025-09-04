@@ -60,8 +60,18 @@ func _on_collision_body_entered(_body):
 		death_tween()
 		
 func _ready():
+	# นี่คือโค้ดที่คุณมีอยู่แล้ว
 	var scene_name = get_tree().current_scene.name
 	if GameManager.spawn_door != "" and GameManager.door_positions.has(scene_name):
 		if GameManager.door_positions[scene_name].has(GameManager.spawn_door):
 			global_position = GameManager.door_positions[scene_name][GameManager.spawn_door]
 	GameManager.spawn_door = ""
+
+	# เพิ่มโค้ดสำหรับเชื่อมต่อสัญญาณ Game Over
+	# Global.game_over.connect(_on_game_over)
+	
+
+
+func _on_game_over():
+	set_process(false)
+	set_physics_process(false)

@@ -14,3 +14,5 @@ var door_positions: Dictionary = {
 
 var next_scene: String = ""
 var spawn_door: String = ""
+
+var has_key = false
