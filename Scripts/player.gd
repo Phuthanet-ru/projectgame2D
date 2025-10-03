@@ -4,7 +4,6 @@ extends CharacterBody2D
 @export var move_speed : float = 200
 
 @onready var player_sprite = $AnimatedSprite2D
-@onready var spawn_point = %SpawnPoint
 @onready var death_particles = $DeathParticles
 
 
@@ -43,7 +42,6 @@ func death_tween():
 	var tween = create_tween()
 	tween.tween_property(self, "scale", Vector2.ZERO, 0.15)
 	await tween.finished
-	global_position = spawn_point.global_position
 	await get_tree().create_timer(0.3).timeout
 	AudioManager.respawn_sfx.play()
 	respawn_tween()
@@ -60,8 +58,18 @@ func _on_collision_body_entered(_body):
 		death_tween()
 		
 func _ready():
+	# นี่คือโค้ดที่คุณมีอยู่แล้ว
 	var scene_name = get_tree().current_scene.name
 	if GameManager.spawn_door != "" and GameManager.door_positions.has(scene_name):
 		if GameManager.door_positions[scene_name].has(GameManager.spawn_door):
 			global_position = GameManager.door_positions[scene_name][GameManager.spawn_door]
 	GameManager.spawn_door = ""
+
+	# เพิ่มโค้ดสำหรับเชื่อมต่อสัญญาณ Game Over
+	# Global.game_over.connect(_on_game_over)
+	
+
+
+func _on_game_over():
+	set_process(false)
+	set_physics_process(false)

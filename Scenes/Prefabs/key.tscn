@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://xhdktnpjaop7"]
+
+[ext_resource type="Script" uid="uid://7nkiedoyw615" path="res://Scenes/Prefabs/key.gd" id="1_0q4ug"]
+[ext_resource type="Texture2D" uid="uid://cqkkf7irnsu54" path="res://Scenes/Props/light.png" id="2_e1eu4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ho7xv"]
+radius = 37.1214
+
+[node name="Key" type="Area2D"]
+script = ExtResource("1_0q4ug")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.046875, 0.0498047)
+texture = ExtResource("2_e1eu4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ho7xv")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(6, 8)
+scale = Vector2(0.496094, 0.423828)
+energy = 0.3
+texture = ExtResource("2_e1eu4")
+texture_scale = 0.5
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

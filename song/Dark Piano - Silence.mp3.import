@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://de8i7qkdiqv50"
+path="res://.godot/imported/Dark Piano - Silence.mp3-6ad88e306b8c133cbc3b8393b363fa3f.mp3str"
+
+[deps]
+
+source_file="res://song/Dark Piano - Silence.mp3"
+dest_files=["res://.godot/imported/Dark Piano - Silence.mp3-6ad88e306b8c133cbc3b8393b363fa3f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

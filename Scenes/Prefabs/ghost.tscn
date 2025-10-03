@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://currw1kyxmsoi"]
+
+[ext_resource type="Script" uid="uid://fss8g462wf7k" path="res://Scenes/Prefabs/ghost.gd" id="1_8u0lr"]
+[ext_resource type="Texture2D" uid="uid://bqlfeai36mglb" path="res://Scenes/Props/Ghost.png" id="2_uy6lg"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_axveu"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8u0lr"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_8u0lr")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_uy6lg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_axveu")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+scale = Vector2(1.1924, 1.58269)
+shape = SubResource("CircleShape2D_8u0lr")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_body_entered"]

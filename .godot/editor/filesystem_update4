@@ -1,0 +1,11 @@
+res://Scenes/Levels/main_menu.tscn
+res://Scenes/Props/Tileset.tres
+res://Scenes/Levels/Hallway.tscn
+res://Scenes/Levels/Kitchen.tscn
+res://Scenes/Levels/Bedroom.tscn
+res://Scenes/Levels/Bathroom.tscn
+res://Scenes/Prefabs/ghost.tscn
+res://Scenes/Prefabs/player.tscn
+res://Scenes/Prefabs/game_over.tscn
+res://Scenes/Prefabs/key.tscn
+res://Scenes/Prefabs/ending.tscn

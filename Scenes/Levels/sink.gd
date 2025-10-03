@@ -37,12 +37,12 @@ func _process(_delta: float) -> void:
 		if water_on:
 			water.stop()
 			water_on = false
-			if is_instance_valid(prompt):
-				prompt.text = "กด E เปิดน้ำ"
+			
+				
 			print("Water OFF")
 		else:
 			water.play()
 			water_on = true
-			if is_instance_valid(prompt):
-				prompt.text = "กด E ปิดน้ำ"
+			
+				
 			print("Water ON")
